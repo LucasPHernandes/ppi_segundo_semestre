@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Ap_Lucas";
-const char* password = "pitoco12";
+const char* ssid = "";
+const char* password = "";
 
 //Your Domain name with URL path or IP address with path
 String serverName = "http://192.168.1.21:8080/leituras";
